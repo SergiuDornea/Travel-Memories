@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.libihb.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.example.libihb.AboutUsFragment"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_about_us" >
+        <action
+            android:id="@+id/action_nav_about_us_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.example.libihb.ContactUsFragment"
+        android:label="@string/contact_us"
+        tools:layout="@layout/fragment_contact_us" >
+        <action
+            android:id="@+id/action_nav_contact_us_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.libihb.ShareFragment"
+        android:label="@string/share"
+        tools:layout="@layout/fragment_share" >
+        <action
+            android:id="@+id/action_nav_share_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.libihb.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_nav_settings_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_log_out"
+        android:name="com.example.libihb.LogoutFragment"
+        android:label="@string/log_out"
+        tools:layout="@layout/fragment_logout" >
+        <action
+            android:id="@+id/action_nav_log_out_to_mainActivity"
+            app:destination="@id/mainActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.libihb.MainActivity"
+        android:label="app_bar_main"
+        tools:layout="@layout/app_bar_main" />
+
+</navigation>

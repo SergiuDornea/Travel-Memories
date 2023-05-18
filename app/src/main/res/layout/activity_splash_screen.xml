@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sps_bg"
+    tools:context=".SplashScreenActivity">
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="500dp"
+        android:src="@drawable/splash_screen_fin"
+        android:layout_centerInParent="true"
+        android:id="@+id/splash_walk"
+        android:contentDescription="@string/life_is_better_in_hiking_boots" />
+
+</RelativeLayout>

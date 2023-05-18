@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">LIBIHB</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="log_out">Log Out</string>
+    <string name="this_is_about_us">This is about us</string>
+    <string name="this_is_contact_us">this is contact us</string>
+    <string name="this_is_log_out">this is log out</string>
+    <string name="this_is_settings">this is settings</string>
+    <string name="this_is_share">this is share</string>
+    <string name="this_is_about_us_fragment">this is about us fragment</string>
+
+    <string name="place_location">place location</string>
+    <string name="date_of_travel">place date</string>
+    <string name="place_name">place name</string>
+    <string name="life_is_better_in_hiking_boots">Life is better in hiking boots</string>
+    <string name="edit_button">edit_button</string>
+    <string name="add_memory">add_memory</string>
+    <string name="floatbtn">floatbtn</string>
+</resources>
