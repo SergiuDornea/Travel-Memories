@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.libihb.databinding.FragmentHomeBinding
 
+
 class HomeFragment : Fragment() {
 
 
@@ -40,6 +41,7 @@ class HomeFragment : Fragment() {
 
         return root
     }
+
 
 
 

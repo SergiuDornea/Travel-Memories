@@ -3,6 +3,7 @@ package com.example.libihb
 import android.os.Bundle
 import android.view.Menu
 import android.view.View
+import android.widget.Button
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -17,6 +18,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.libihb.databinding.ActivityMainBinding
 
+
 class MainActivity : AppCompatActivity() {
 
     private lateinit var appBarConfiguration: AppBarConfiguration
@@ -25,6 +27,7 @@ class MainActivity : AppCompatActivity() {
     //create list for rv and make it accessible only in this class
     private val travelMemoriesList = getTravelMemory()
     val adapter = MyAdapter(travelMemoriesList)
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -63,6 +66,21 @@ class MainActivity : AppCompatActivity() {
         recycleView.setHasFixedSize(true)
 
 
+//        // add / edit btns section
+//         // add / edit btns
+//
+//    private val editBtn = findViewById<Button>(R.id.edit_memories)
+//    private val addBtn = findViewById<Button>(R.id.add_memories)
+
+//        addBtn.setOnClickListener(View.OnClickListener(){
+//            fun onClick(){
+//               openDialog()
+//            }
+//        })
+//
+//        fun openDialog(){
+//
+//        }
 
     }
 

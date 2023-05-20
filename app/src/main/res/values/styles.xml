@@ -4,5 +4,10 @@
     <!-- splash screen theme -->
     <style name="SplashScreenTheme" parent="Theme.AppCompat.Light.NoActionBar"/>
 
+<!--    style for add/cancel btn from pop up add/edit-->
+    <style name="Button.Add_Cancel." parent="Theme.AppCompat" >
+        <item name="backgroundTint">@android:color/darker_gray</item>
+    </style>s
+
 
 </resources>

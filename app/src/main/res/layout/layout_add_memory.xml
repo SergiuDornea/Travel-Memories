@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/sps_bg"
+ >
+
+<!--place name-->
+    <TextView
+        android:id="@+id/tv_place_name"
+        android:background="@color/lightwood"
+        android:textColor="@color/darkgrey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="10dp"
+        android:text="@string/place_name2"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/et_place_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_place_name"
+        android:background="@color/lightwood"
+        android:gravity="center"
+        android:hint="@string/vf_moldoveanu"
+        android:padding="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:textSize="25sp" />
+
+
+
+<!--place location-->
+    <TextView
+        android:id="@+id/tv_place_location"
+        android:background="@color/lightwood"
+        android:textColor="@color/darkgrey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="10dp"
+        android:text="@string/place_location2"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_place_name"
+        />
+
+
+    <EditText
+        android:id="@+id/et_place_location"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_place_location"
+        android:layout_marginTop="0dp"
+        android:background="@color/lightwood"
+        android:gravity="center"
+        android:hint="@string/jud_arges"
+        android:padding="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:textSize="25sp"
+        />
+
+
+<!--    place date -->
+    <TextView
+        android:id="@+id/tv_place_date"
+        android:background="@color/lightwood"
+        android:textColor="@color/darkgrey"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:padding="10dp"
+        android:text="@string/place_location2"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_below="@id/et_place_location"
+        />
+
+    <EditText
+
+        android:id="@+id/et_place_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_place_date"
+        android:background="@color/lightwood"
+        android:gravity="center"
+        android:hint="@string/dd_mm_yyyy"
+        android:inputType="date"
+        android:padding="10dp"
+        android:textColorHint="@color/darkgrey"
+        android:textSize="25sp" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_place_date"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp">
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120dp"
+            android:text="@string/add"
+            android:theme="@style/Button.Add_Cancel."
+            />
+
+        <Button
+            android:id="@+id/cancel_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:text="@string/cancel"
+            android:theme="@style/Button.Add_Cancel."
+            />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

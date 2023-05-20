@@ -28,4 +28,16 @@
     <string name="edit_button">edit_button</string>
     <string name="add_memory">add_memory</string>
     <string name="floatbtn">floatbtn</string>
+    <string name="add_button">add_button</string>
+    <string name="place_name1">Place name</string>
+    <string name="plc_date">plc_date</string>
+    <string name="input_place_name">Input place name:</string>
+    <string name="place_name2">Place name:</string>
+    <string name="vf_moldoveanu">Vf. Moldoveanu</string>
+    <string name="jude_ul_arge_masivul_f_g_ra">Județul Argeș, Masivul Făgăraș</string>
+    <string name="place_location2">Place location:</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="add">ADD</string>
+    <string name="cancel">CANCEL</string>
+    <string name="jud_arges">Jud.Arges</string>
 </resources>
