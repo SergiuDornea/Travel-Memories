@@ -15,11 +15,11 @@
     <string name="settings">Settings</string>
     <string name="log_out">Log Out</string>
     <string name="this_is_about_us">This is about us</string>
-    <string name="this_is_contact_us">this is contact us</string>
+    <string name="this_is_contact_us">Dornea Sergiu</string>
     <string name="this_is_log_out">this is log out</string>
     <string name="this_is_settings">this is settings</string>
     <string name="this_is_share">this is share</string>
-    <string name="this_is_about_us_fragment">this is about us fragment</string>
+    <string name="this_is_about_us_fragment">We believe that life is better in hiking boots :)) So this is a simple android travel application that lets you keep a record of all of the mountain peaks you have conquered.</string>
 
     <string name="place_location">place location</string>
     <string name="date_of_travel">place date</string>
@@ -33,11 +33,21 @@
     <string name="plc_date">plc_date</string>
     <string name="input_place_name">Input place name:</string>
     <string name="place_name2">Place name:</string>
-    <string name="vf_moldoveanu">Vf. Moldoveanu</string>
+    <string name="vf_moldoveanu">ex: Vf. Moldoveanu</string>
     <string name="jude_ul_arge_masivul_f_g_ra">Județul Argeș, Masivul Făgăraș</string>
     <string name="place_location2">Place location:</string>
-    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="dd_mm_yyyy">dd-MM-yyyy</string>
     <string name="add">ADD</string>
     <string name="cancel">CANCEL</string>
-    <string name="jud_arges">Jud.Arges</string>
+    <string name="jud_arges">ex: Jud.Arges</string>
+    <string name="date">Date:</string>
+    <string name="mountain_drawing">mountain drawing</string>
+    <string name="enjoy">Enjoy!</string>
+    <string name="phone">Phone: +40 762626262</string>
+    <string name="Email">Email: dorneasergiu@gmail.com</string>
+    <string name="you_can_also_find_me_on">You can also find me on:</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="youtube">Youtube</string>
+    <string name="pick_date">Pick date: </string>
 </resources>

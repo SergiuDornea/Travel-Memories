@@ -4,8 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     android:background="@drawable/sps_bg"
  >
 
@@ -84,7 +85,7 @@
         android:gravity="center"
         android:includeFontPadding="false"
         android:padding="10dp"
-        android:text="@string/place_location2"
+        android:text="@string/pick_date"
         android:textAlignment="center"
         android:textSize="25sp"
         android:textStyle="bold"
@@ -99,8 +100,8 @@
         android:layout_below="@id/tv_place_date"
         android:background="@color/lightwood"
         android:gravity="center"
+        android:inputType="datetime"
         android:hint="@string/dd_mm_yyyy"
-        android:inputType="date"
         android:padding="10dp"
         android:textColorHint="@color/darkgrey"
         android:textSize="25sp" />
@@ -113,26 +114,32 @@
         android:layout_marginStart="15dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="15dp"
-        android:layout_marginBottom="15dp">
+        android:layout_marginBottom="15dp"
+        >
 
         <Button
-            android:id="@+id/add_btn"
+            android:id="@+id/add_add_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginEnd="120dp"
             android:text="@string/add"
+            android:textColor="@color/white"
             android:theme="@style/Button.Add_Cancel."
+            android:clickable="true"
+            android:focusable="true"
             />
 
         <Button
-            android:id="@+id/cancel_btn"
+            android:id="@+id/add_cancel_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="120dp"
             android:text="@string/cancel"
+            android:textColor="@color/white"
             android:theme="@style/Button.Add_Cancel."
+            android:clickable="true"
+            android:focusable="true"
             />
-
 
     </RelativeLayout>
 

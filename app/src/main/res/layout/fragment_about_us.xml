@@ -3,12 +3,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AboutUsFragment">
+    tools:context=".AboutUsFragment"
+    >
 
-    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/mountain_drawing"
+        android:src="@drawable/mountains_line_drawing" />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/this_is_about_us_fragment" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_about_us_fragment"
+        android:layout_marginTop="300dp"
+        android:padding="15sp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enjoy"
+        android:layout_marginTop="470dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightgreen"
+        android:textSize="40sp"
+        android:padding="15sp"
+        />
 
 </FrameLayout>

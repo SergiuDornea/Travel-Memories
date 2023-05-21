@@ -21,16 +21,17 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <include layout="@layout/content_main" />
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/edit_memories"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_marginEnd="@dimen/fab_margin"
-        android:layout_marginBottom="85dp"
-        app:backgroundTint="#9d978b"
-        android:contentDescription="@string/edit_button"
-        app:srcCompat="@drawable/ic_edit" />
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/edit_memories"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="bottom|end"-->
+<!--        android:layout_marginEnd="@dimen/fab_margin"-->
+<!--        android:layout_marginBottom="85dp"-->
+<!--        app:backgroundTint="#9d978b"-->
+<!--        android:contentDescription="@string/edit_button"-->
+<!--        app:srcCompat="@drawable/ic_edit" />-->
 
     <!-- ADD BUTTON -->
     <com.google.android.material.floatingactionbutton.FloatingActionButton

@@ -3,12 +3,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".ContactUsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/personal_photo"
+        android:layout_width="190dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/poza_personala"
+        app:shapeAppearanceOverlay="@style/CornerRound2"
+      />
+
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/this_is_contact_us" />
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/this_is_contact_us"
+        android:layout_marginTop="240dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightgreen"
+        android:textSize="40sp"
+        android:padding="15sp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone"
+        android:layout_marginTop="300dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightgreen"
+        android:textSize="20sp"
+        android:padding="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Email"
+        android:layout_marginTop="340dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightgreen"
+        android:textSize="20sp"
+        android:padding="15sp"
+        />
+
+    <TextView
+        android:id="@+id/you_can_find_me"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/you_can_also_find_me_on"
+        android:layout_marginTop="380dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/lightgreen"
+        android:textSize="20sp"
+        android:padding="15sp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp">
+    <ImageButton
+        android:id="@+id/id_insta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_instagram"
+        android:contentDescription="@string/instagram" />
+
+    <ImageButton
+        android:id="@+id/id_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_facebook"
+        android:contentDescription="@string/facebook" />
+
+    <ImageButton
+        android:id="@+id/id_youtube"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_youtube"
+        android:contentDescription="@string/youtube" />
+    </LinearLayout>
+
 
 </FrameLayout>
